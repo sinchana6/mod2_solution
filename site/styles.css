@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	font-size:175%;
+	margin-top: 30px;
+}
+body{
+	font-family: 'Averia Sans Libre';
+	font-size: 18px;
+}
+div{
+	float:left;
+	position: relative;
+	top:20px;
+
+}
+p{
+    position: relative;
+    border: 1px solid black;
+    padding:20px;
+    text-align: left; 
+	background-color: gray;
+	width:90%;
+	float:left;
+    margin: 10px 10px;
+    font-size:100%;
+    overflow:auto;
+    
+}
+span{ 
+border: 1px solid black;
+padding: 3px;
+position: absolute;
+top:0px;
+right:0px;
+font-size:125%;
+}
+#l1{
+	background-color:pink;
+}
+#l2{
+	background-color: maroon;
+	color: white;}
+#l3{
+	background-color: yellow; 
+}
+
+.row{
+	margin:10px;
+	width:100%;
+}
+@media (min-width:992px )
+{
+	.col-lg-3{
+		float:left;
+		width:33.33%;
+	}
+}
+@media (min-width:768px) and (max-width:991px ){
+	.col-md-3{
+		width:50%;
+		
+	
+}
+.col-md-12{
+    
+	margin-top:10px;
+	width:100%;
+
+}
+}
+@media (max-width:767px){
+	.row{
+		margin:10px;
+		width:100%;
+	}
+}
